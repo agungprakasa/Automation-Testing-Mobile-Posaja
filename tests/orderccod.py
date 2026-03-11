@@ -26,7 +26,7 @@ driver.install_app("D:/QA/apkPOS/posajamobiledev.apk")
 driver.activate_app("com.posindonesia.cob")
 
 # === KONFIG TELEGRAM ===
-BOT_TOKEN = '7700320759:AAHC0ufJWzBsteFFfyoXg27cO7cCfZkcR00'   # Ganti token kamu
+BOT_TOKEN = 'token'   # Ganti token kamu
 CHAT_ID = '-4800804566'               # Ganti chat ID kamu
 
 # === FOLDER ===
@@ -307,5 +307,6 @@ except Exception as e:
 
 finally:
     driver.quit()
+
 
 
